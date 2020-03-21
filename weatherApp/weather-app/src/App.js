@@ -68,7 +68,7 @@ class App extends React.Component {
     return cell;
   }
 
-  
+
   getWeather = async e => {
     e.preventDefault();
 
@@ -93,6 +93,8 @@ class App extends React.Component {
         error: false
       });
 
+      
+      
       // seting icons
       this.get_WeatherIcon(this.weatherIcon, response.weather[0].id);
 
