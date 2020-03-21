@@ -10,6 +10,8 @@ const Weather = props => {
           <i className={`wi ${props.weatherIcon} display-1`} />
         </h5>
 
+
+
         {/* Get Celsius */}
         {props.temp_celsius ? (
           <h1 className="py-2">{props.temp_celsius}&deg;</h1>
