@@ -68,6 +68,7 @@ class App extends React.Component {
     return cell;
   }
 
+  
   getWeather = async e => {
     e.preventDefault();
 
